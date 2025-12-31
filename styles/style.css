@@ -14,6 +14,10 @@ body{
     font-style: normal;
 }
 
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
 .flex {
     display: flex;
 }
@@ -21,10 +25,83 @@ body{
 /* nav style  */
 .navber {
     gap: 670px;
+    padding: 50px 200px 0px;
 }
 
 .nav-links {
     list-style: none;
-     margin-right: 30px;
      gap: 20px;
+}
+
+/* banner section   */
+.banner h3{
+    color: rgba(19, 19, 19, 1);
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner p{
+    color: rgba(114, 114, 114, 1);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.btn{
+    background-color: #FF900E;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.center{
+    text-align: center;
+}
+
+.banner img{
+    width: 80%;
+    align-items: center;
+    margin-bottom: 130px;
+
+}
+
+/* quick section  */
+.features-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.features{
+    display: flex;
+    align-items: center;
+}
+
+.quick h3{
+    font-size: 45px;
+    font-weight: 400;
+}
+span{
+    color: #FF900E;
+}
+
+.a{
+    color: #727272;
+}
+
+.quick p{
+    color: rgba(114, 114, 114, 1);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px 0 32px 0;
+}
+
+.quick{
+    margin-left: 70px;
 }
