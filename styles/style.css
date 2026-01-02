@@ -1,6 +1,6 @@
 
 body{
-    width: 1440px;
+    /* width: 1200px; */
     margin: 0 auto;
 }
 
@@ -14,10 +14,14 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+.width{
+    width: 80%;
+    margin: 0 auto;
+}
 
 header{
     background-color: rgba(255, 144, 14, 0.1);
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: 0 auto;
 }
 
@@ -124,6 +128,13 @@ span{
 
 .quick{
     margin-left: 70px;
+}
+
+/* features section  */
+
+#feature-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
 }
 
 /* Some Facts  */
